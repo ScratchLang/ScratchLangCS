@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ScratchLang": {
+      "commandName": "Project",
+      "commandLineArgs": "--edit"
+    }
+  }
+}
