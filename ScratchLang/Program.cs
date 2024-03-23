@@ -3,6 +3,7 @@ using System.IO.Compression;
 using System.Runtime.CompilerServices;
 using static ScratchLang.Functions;
 using static ScratchLang.GlobalVariables;
+
 [assembly: DisableRuntimeMarshalling]
 
 namespace ScratchLang
@@ -292,9 +293,9 @@ namespace ScratchLang
                     else { Error("No file selected."); }
                     Environment.Exit(0);
                 }
-                else if (inp == "7") 
-                { 
-                    Console.WriteLine("\nScratchLang can't automatically install dependencies for you yet, but all you should need it Git for Windows. Search it up and install it yourself."); 
+                else if (inp == "7")
+                {
+                    Console.WriteLine("\nScratchLang can't automatically install dependencies for you yet, but all you should need it Git for Windows. Search it up and install it yourself.");
                     Environment.Exit(0);
                 }
                 else if (inp == "8")
